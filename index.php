@@ -7,18 +7,18 @@
     <title>Di Động Thông Minh</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/themify-icons/themify-icons.css">
-    <script src="js/funtion.js"></script>
+    <script src="./js/funtion.js"></script>
 </head>
 
 <body class="all">
     <div class="wrapper">
         <?php
         session_start();
-        // session_start() khởi động session trên server, cho phép lưu trữ thông tin giữa các lần request của người dùng.
+        // session_start()  khởi động session trên server, cho phép lưu trữ thông tin giữa các lần request của người dùng.
         include("admin/config/config.php");
         include("pages/header.php");
         ?>
